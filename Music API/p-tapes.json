@@ -1,0 +1,110 @@
+{
+  "id": 678243,
+  "status": "Accepted",
+  "year": 2006,
+  "resource_url": "https://api.discogs.com/releases/678243",
+  "uri": "https://www.discogs.com/release/678243-Justin-Meyers-The-Sound-Of-An-Amplified-Floor",
+  "artists": [
+    {
+      "name": "Justin Meyers",
+      "anv": "",
+      "join": "",
+      "role": "",
+      "tracks": "",
+      "id": 514430,
+      "resource_url": "https://api.discogs.com/artists/514430"
+    }
+  ],
+  "artists_sort": "Justin Meyers",
+  "labels": [
+    {
+      "name": "P-Tapes",
+      "catno": "P61",
+      "entity_type": "1",
+      "entity_type_name": "Label",
+      "id": 31706,
+      "resource_url": "https://api.discogs.com/labels/31706"
+    }
+  ],
+  "series": [],
+  "companies": [],
+  "formats": [
+    {
+      "name": "CDr",
+      "qty": "1",
+      "descriptions": [
+        "Mini",
+        "Limited Edition"
+      ]
+    }
+  ],
+  "data_quality": "Needs Vote",
+  "community": {
+    "have": 25,
+    "want": 14,
+    "rating": {
+      "count": 4,
+      "average": 4.25
+    },
+    "submitter": {
+      "username": "st1z",
+      "resource_url": "https://api.discogs.com/users/st1z"
+    },
+    "contributors": [
+      {
+        "username": "st1z",
+        "resource_url": "https://api.discogs.com/users/st1z"
+      },
+      {
+        "username": "pkdickhead",
+        "resource_url": "https://api.discogs.com/users/pkdickhead"
+      },
+      {
+        "username": "toefootie",
+        "resource_url": "https://api.discogs.com/users/toefootie"
+      }
+    ],
+    "data_quality": "Needs Vote",
+    "status": "Accepted"
+  },
+  "format_quantity": 1,
+  "date_added": "2006-05-16T08:02:05-07:00",
+  "date_changed": "2013-12-16T22:35:33-08:00",
+  "num_for_sale": 3,
+  "lowest_price": 4.0,
+  "title": "The Sound Of An Amplified Floor",
+  "country": "US",
+  "released": "2006-05-00",
+  "notes": "Recorded February 2006.\r\n\r\nLimited to 200 copies.\r\n\r\nCDr in an envelope, with release information printed on it, is packaged in a printed card stock mini-sleeve\r\n\r\n",
+  "released_formatted": "May 2006",
+  "identifiers": [],
+  "videos": [],
+  "genres": [
+    "Electronic"
+  ],
+  "styles": [
+    "Experimental",
+    "Ambient"
+  ],
+  "tracklist": [
+    {
+      "position": "1",
+      "type_": "track",
+      "title": "The Sound Of An Amplified Floor",
+      "duration": "11:01"
+    }
+  ],
+  "images": [
+    {
+      "type": "secondary",
+      "uri": "",
+      "resource_url": "",
+      "uri150": "",
+      "width": 400,
+      "height": 400
+    }
+  ],
+  "thumb": "",
+  "estimated_weight": 85,
+  "blocked_from_sale": false
+}
