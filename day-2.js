@@ -47,7 +47,14 @@ getCharmanderData();
 // Log Squirtle's name and base experience to the console.
 
 // TODO: Write your function here to fetch and log Squirtle's name and base experience
-
+async function getSquirtleData() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/7';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('Name:', data.name);
+  console.log('Base Experience:', data.base_experience);
+}
+console.log(getSquirtleData())
 
 // EXERCISE 2: Fetch and Log the Name and Types of Pikachu
 
@@ -56,8 +63,14 @@ getCharmanderData();
 // Log Pikachu's name and types to the console. (Hint: `data.types` is an array.)
 
 // TODO: Write your function here to fetch and log Pikachu's name and types
-
-
+async function getPikachuData() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/25';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('Name:', data.name);
+  console.log('Type(s):', data.types[0].type.name);
+}
+console.log(getPikachuData())
 // EXERCISE 3: Fetch and Log the Name and Weight of Jigglypuff
 
 // INSTRUCTIONS:
@@ -65,8 +78,14 @@ getCharmanderData();
 // Log Jigglypuff's name and weight to the console.
 
 // TODO: Write your function here to fetch and log Jigglypuff's name and weight
-
-
+async function getJigglypuffData() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/39';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('Name:', data.name);
+  console.log('Weight:', data.weight);
+}
+console.log(getJigglypuffData())
 // EXERCISE 4: Fetch and Log the Name, Height, and Weight of Meowth
 
 // INSTRUCTIONS:
@@ -74,8 +93,15 @@ getCharmanderData();
 // Log Meowth's name, height, and weight to the console.
 
 // TODO: Write your function here to fetch and log Meowth's name, height, and weight
-
-
+async function getMeowthData() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/52';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('Name:', data.name);
+  console.log('Height:', data.height);
+  console.log('Weight:', data.weight);
+}
+console.log(getMeowthData())
 // EXERCISE 5: Fetch and Log the Name and Abilities of Eevee
 
 // INSTRUCTIONS:
@@ -83,8 +109,13 @@ getCharmanderData();
 // Log Eevee's name and abilities to the console. (Hint: `data.abilities` is an array. Log each ability separately.)
 
 // TODO: Write your function here to fetch and log Eevee's name and abilities
+async function getEeveeData() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/133';
+  const response = await fetch(url);
+  const data = await response.json();
 
-
+}
+console.log(getEeveeData())
 // Summary:
 // These exercises help you practice using `fetch` and `async/await` to interact with a RESTful API, specifically the Pokémon API.
 // You learned how to access and manipulate data returned from an API, which is a crucial skill in modern web development.
