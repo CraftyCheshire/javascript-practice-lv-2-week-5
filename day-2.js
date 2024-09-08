@@ -113,6 +113,8 @@ async function getEeveeData() {
   const url = 'https://pokeapi.co/api/v2/pokemon/133';
   const response = await fetch(url);
   const data = await response.json();
+  console.log('Name:', data.name);
+  console.log('Abilities:', data.abilities[0].type.name);
 
 }
 console.log(getEeveeData())
