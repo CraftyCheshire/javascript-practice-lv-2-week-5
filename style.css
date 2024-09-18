@@ -1,3 +1,12 @@
 body {
     background-color: antiquewhite;
+    background-image: url(https://images7.alphacoders.com/592/592678.jpg);
+}
+
+#poke-item {
+    background-color: aqua;
+}
+
+label {
+    color: aquamarine;
 }

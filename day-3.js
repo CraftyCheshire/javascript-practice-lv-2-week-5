@@ -45,17 +45,28 @@ getFirstBerryName();
 // Note: use /api/v2/pokemon to GET a pokemon object
 
 // TODO: Write your function here to fetch and log the name of the second Pokémon
+async function getSecondPokemonName() {
+  const url = 'https://pokeapi.co/api/v2/pokemon/2';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('Second Pokémon Name:', data.name);
+}
+getSecondPokemonName();
 
-
-// EXERCISE 2: Fetch and Log the Flavor of the First Berry
+// EXERCISE 2: Fetch and Log the Flavor of the Second Berry
 
 // INSTRUCTIONS:
-// Create a function called `getFirstBerryFlavor` that fetches data for the first Berry from the Pokémon API.
+// Create a function called `getFirstBerryFlavor` that fetches data for the Second Berry from the Pokémon API.
 // Log the flavor of this Berry to the console. (Hint: Berry data has a `flavors` property.)
 // Note: use /api/v2/berry to GET a pokemon object
 
-// TODO: Write your function here to fetch and log the flavor of the first Berry
-
+// TODO: Write your function here to fetch and log the flavor of the second Berry
+async function getFirstBerryName() {
+  const url = 'https://pokeapi.co/api/v2/berry/2';
+  const response = await fetch(url);
+  const data = await response.json();
+  console.log('First Berry Name:', data.name);
+}
 
 // EXERCISE 3: Fetch and Log the Name and Effect of the First Ability
 

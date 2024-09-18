@@ -114,7 +114,7 @@ async function getEeveeData() {
   const response = await fetch(url);
   const data = await response.json();
   console.log('Name:', data.name);
-  console.log('Abilities:', data.abilities[0].type.name);
+  console.log('Abilities:', data.abilities[0].ability.name, data.abilities[1].ability.name, data.abilities[2].ability.name);
 
 }
 console.log(getEeveeData())
